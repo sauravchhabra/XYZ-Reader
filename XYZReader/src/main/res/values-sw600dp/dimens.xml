@@ -5,3 +5,5 @@
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.3</item>
     <dimen name="fab_margin">24dp</dimen>
 </resources>
+
+    <!--This project has been made by Saurav Chhabra, student at Udacity-->
