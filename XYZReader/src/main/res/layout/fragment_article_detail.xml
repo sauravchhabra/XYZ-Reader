@@ -72,6 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?android:attr/actionBarSize"
                 app:layout_collapseMode="pin"
+                app:elevation="4dp"
                 app:layout_scrollFlags="scroll|enterAlways"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
@@ -113,6 +114,7 @@
         android:layout_margin="@dimen/fab_margin"
         android:contentDescription="@string/action_share"
         android:src="@drawable/ic_share"
+        app:elevation="6dp"
         app:fabSize="normal"
         app:layout_anchor="@id/detail_app_bar_layout"
         app:layout_anchorGravity="bottom|end" />
