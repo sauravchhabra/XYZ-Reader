@@ -6,7 +6,7 @@
     android:layout_margin="@dimen/list_item_card_margin"
     android:clickable="true"
     android:focusable="true"
-    app:elevation="2dp"
+    app:elevation="1dp"
     android:foreground="?android:selectableItemBackground">
 
     <LinearLayout
@@ -17,7 +17,7 @@
         <com.example.xyzreader.widget.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:scaleType="centerCrop"
             android:background="@color/photo_placeholder" />
 
